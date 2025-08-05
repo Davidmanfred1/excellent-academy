@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Excellence Academy Ghana - Premier educational institution providing quality education with modern facilities and experienced faculty.">
+    <meta name="keywords" content="school, education, Ghana, academy, students, learning, enrollment">
+    <meta name="author" content="Excellence Academy Ghana">
+
+    <!-- Mobile-specific meta tags -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Excellence Academy">
+    <meta name="theme-color" content="#CE1126">
+    <meta name="msapplication-TileColor" content="#CE1126">
+    <meta name="msapplication-navbutton-color" content="#CE1126">
+
+    <!-- Preconnect to external domains for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- DNS prefetch for WhatsApp -->
+    <link rel="dns-prefetch" href="//wa.me">
+    
+    <title>Excellence Academy Ghana - Quality Education for Tomorrow's Leaders</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon and PWA -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23CE1126'/%3E%3Crect x='9' y='8' width='14' height='10' rx='1' fill='%23FCD116'/%3E%3Crect x='8' y='9' width='14' height='10' rx='1' fill='white'/%3E%3Cpolygon points='16,6 11,10 21,10' fill='%23006B3F'/%3E%3Crect x='15' y='6' width='2' height='3' fill='%23006B3F'/%3E%3Cpolygon points='16,21 14,24 18,24' fill='%23FCD116'/%3E%3C/svg%3E">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Ccircle cx='90' cy='90' r='90' fill='%23CE1126'/%3E%3Crect x='50' y='45' width='80' height='56' rx='6' fill='%23FCD116'/%3E%3Crect x='45' y='50' width='80' height='56' rx='6' fill='white'/%3E%3Cpolygon points='90,34 62,56 118,56' fill='%23006B3F'/%3E%3Crect x='84' y='34' width='12' height='17' fill='%23006B3F'/%3E%3Cpolygon points='90,118 78,135 102,135' fill='%23FCD116'/%3E%3C/svg%3E">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float" id="whatsapp-float">
+        <a href="https://wa.me/233123456789?text=Hello%20Excellence%20Academy!%20I%20would%20like%20to%20know%20more%20about%20your%20programs." 
+           target="_blank" 
+           aria-label="Contact us on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <div class="logo-img">
+                        <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background circle -->
+                            <circle cx="20" cy="20" r="20" fill="#CE1126"/>
+                            <!-- Book pages -->
+                            <rect x="12" y="10" width="16" height="12" rx="1" fill="#FCD116"/>
+                            <rect x="10" y="12" width="16" height="12" rx="1" fill="#FFFFFF"/>
+                            <!-- Graduation cap -->
+                            <polygon points="20,8 14,12 26,12" fill="#006B3F"/>
+                            <rect x="19" y="8" width="2" height="4" fill="#006B3F"/>
+                            <!-- Excellence star -->
+                            <polygon points="20,26 18,30 22,30" fill="#FCD116"/>
+                            <!-- Text lines on book -->
+                            <line x1="12" y1="16" x2="24" y2="16" stroke="#CE1126" stroke-width="0.5"/>
+                            <line x1="12" y1="18" x2="22" y2="18" stroke="#CE1126" stroke-width="0.5"/>
+                            <line x1="12" y1="20" x2="24" y2="20" stroke="#CE1126" stroke-width="0.5"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Excellence Academy</span>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#programs" class="nav-link">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#admissions" class="nav-link">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#register" class="nav-link cta-button">Join Us</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Excellence Academy Ghana</h1>
+                <p class="hero-subtitle">Empowering minds, building futures, and nurturing tomorrow's leaders through quality education and cultural values.</p>
+                <div class="hero-buttons">
+                    <a href="#register" class="btn btn-primary">Apply Now</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Ghanaian students in classroom" class="hero-img">
+            </div>
+        </div>
+        
+        <!-- Hero Stats -->
+        <div class="hero-stats">
+            <div class="stat-item">
+                <h3 class="stat-number">500+</h3>
+                <p class="stat-label">Students</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number">50+</h3>
+                <p class="stat-label">Teachers</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number">15+</h3>
+                <p class="stat-label">Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number">95%</h3>
+                <p class="stat-label">Success Rate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Excellence Academy</h2>
+                <p class="section-subtitle">Building a foundation for lifelong learning and success</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>To provide quality education that combines academic excellence with Ghanaian cultural values, preparing students to become responsible global citizens and future leaders.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To be the leading educational institution in Ghana, recognized for academic excellence, character development, and innovative teaching methods.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Quality Education</h4>
+                            <p>Modern curriculum with experienced teachers</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <h4>Small Class Sizes</h4>
+                            <p>Personalized attention for every student</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-laptop"></i>
+                            <h4>Modern Facilities</h4>
+                            <p>State-of-the-art classrooms and technology</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Excellence Academy campus" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Academic Programs</h2>
+                <p class="section-subtitle">Comprehensive education from foundation to advanced levels</p>
+            </div>
+            
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Primary Education</h3>
+                    <p>Foundation learning with focus on literacy, numeracy, and character development for ages 6-12.</p>
+                    <ul class="program-features">
+                        <li>English & Mathematics</li>
+                        <li>Science & Social Studies</li>
+                        <li>Ghanaian Languages</li>
+                        <li>Arts & Crafts</li>
+                    </ul>
+                    <a href="#register" class="btn btn-outline">Learn More</a>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Junior High School</h3>
+                    <p>Comprehensive secondary education preparing students for senior high school and beyond.</p>
+                    <ul class="program-features">
+                        <li>Core Subjects</li>
+                        <li>Elective Subjects</li>
+                        <li>ICT & Computer Studies</li>
+                        <li>Vocational Skills</li>
+                    </ul>
+                    <a href="#register" class="btn btn-outline">Learn More</a>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Senior High School</h3>
+                    <p>Advanced education with specialization tracks preparing students for university and careers.</p>
+                    <ul class="program-features">
+                        <li>Science Track</li>
+                        <li>Arts Track</li>
+                        <li>Business Track</li>
+                        <li>Technical Track</li>
+                    </ul>
+                    <a href="#register" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Contact Section -->
+    <section class="whatsapp-section">
+        <div class="container">
+            <div class="whatsapp-content">
+                <div class="whatsapp-text">
+                    <h3>Have Questions? Let's Chat!</h3>
+                    <p>Connect with us instantly on WhatsApp for quick answers about admissions, programs, and more.</p>
+                </div>
+                <div class="whatsapp-buttons">
+                    <a href="https://wa.me/233123456789?text=Hello!%20I%20need%20information%20about%20admissions." 
+                       class="whatsapp-btn admissions" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Admissions Inquiry</span>
+                    </a>
+                    <a href="https://wa.me/233123456789?text=Hello!%20I%20need%20information%20about%20your%20academic%20programs." 
+                       class="whatsapp-btn programs" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Program Information</span>
+                    </a>
+                    <a href="https://wa.me/233123456789?text=Hello!%20I%20need%20general%20information%20about%20Excellence%20Academy." 
+                       class="whatsapp-btn general" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>General Inquiry</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section class="admissions" id="admissions">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Admissions</h2>
+                <p class="section-subtitle">Join our community of learners and start your journey to excellence</p>
+            </div>
+
+            <div class="admissions-content">
+                <div class="admissions-info">
+                    <h3>Admission Requirements</h3>
+                    <div class="requirements-grid">
+                        <div class="requirement-item">
+                            <i class="fas fa-file-alt"></i>
+                            <h4>Application Form</h4>
+                            <p>Complete our online application form with accurate information</p>
+                        </div>
+                        <div class="requirement-item">
+                            <i class="fas fa-id-card"></i>
+                            <h4>Birth Certificate</h4>
+                            <p>Original birth certificate and photocopies</p>
+                        </div>
+                        <div class="requirement-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Academic Records</h4>
+                            <p>Previous school reports and certificates</p>
+                        </div>
+                        <div class="requirement-item">
+                            <i class="fas fa-camera"></i>
+                            <h4>Passport Photos</h4>
+                            <p>Recent passport-sized photographs</p>
+                        </div>
+                    </div>
+
+                    <div class="admission-process">
+                        <h3>Admission Process</h3>
+                        <div class="process-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Submit Application</h4>
+                                    <p>Complete and submit your application online or in person</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Document Review</h4>
+                                    <p>Our admissions team reviews your documents</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Interview/Assessment</h4>
+                                    <p>Attend an interview or placement assessment</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Admission Decision</h4>
+                                    <p>Receive your admission decision and enrollment details</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="admissions-cta">
+                    <div class="cta-card">
+                        <h3>Ready to Apply?</h3>
+                        <p>Start your application today and join our community of excellence.</p>
+                        <a href="#register" class="btn btn-primary">Apply Now</a>
+                        <div class="contact-options">
+                            <p>Need help with your application?</p>
+                            <a href="https://wa.me/233123456789?text=Hello!%20I%20need%20help%20with%20my%20application."
+                               class="whatsapp-link" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                Chat with Admissions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Gallery</h2>
+                <p class="section-subtitle">Explore our vibrant school community and modern facilities</p>
+            </div>
+
+            <div class="gallery-tabs">
+                <button class="tab-btn active" data-tab="photos">Photos</button>
+                <button class="tab-btn" data-tab="videos">Videos</button>
+                <button class="tab-btn" data-tab="events">Events</button>
+            </div>
+
+            <div class="gallery-content">
+                <!-- Photos Tab -->
+                <div class="tab-content active" id="photos">
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Students in modern classroom" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <h4>Modern Classrooms</h4>
+                                <p>State-of-the-art learning environments</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Science laboratory" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <h4>Science Laboratory</h4>
+                                <p>Hands-on learning experiences</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="School library" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <h4>Library</h4>
+                                <p>Extensive collection of books and resources</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Sports field" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <h4>Sports Facilities</h4>
+                                <p>Promoting physical fitness and teamwork</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Computer laboratory" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <h4>Computer Lab</h4>
+                                <p>Digital literacy and technology skills</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1544531586-fbd96ceaff6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Cultural celebration" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <h4>Cultural Events</h4>
+                                <p>Celebrating Ghanaian heritage and traditions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Videos Tab -->
+                <div class="tab-content" id="videos">
+                    <div class="video-grid">
+                        <div class="video-item">
+                            <div class="video-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="School tour video" class="video-img">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <h4>Virtual School Tour</h4>
+                            <p>Take a virtual tour of our beautiful campus</p>
+                        </div>
+                        <div class="video-item">
+                            <div class="video-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Student testimonials" class="video-img">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <h4>Student Testimonials</h4>
+                            <p>Hear from our successful students</p>
+                        </div>
+                        <div class="video-item">
+                            <div class="video-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Academic programs overview" class="video-img">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <h4>Academic Programs</h4>
+                            <p>Overview of our comprehensive curriculum</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Tab -->
+                <div class="tab-content" id="events">
+                    <div class="events-grid">
+                        <div class="event-item">
+                            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Graduation ceremony" class="event-img">
+                            <div class="event-content">
+                                <h4>Graduation Ceremony 2024</h4>
+                                <p>Celebrating our graduates' achievements</p>
+                                <span class="event-date">March 2024</span>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Science fair" class="event-img">
+                            <div class="event-content">
+                                <h4>Annual Science Fair</h4>
+                                <p>Students showcase innovative projects</p>
+                                <span class="event-date">February 2024</span>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <img src="https://images.unsplash.com/photo-1544531586-fbd96ceaff6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Cultural day celebration" class="event-img">
+                            <div class="event-content">
+                                <h4>Cultural Day Celebration</h4>
+                                <p>Honoring Ghanaian culture and traditions</p>
+                                <span class="event-date">January 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="registration" id="register">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Student Registration</h2>
+                <p class="section-subtitle">Begin your journey with Excellence Academy Ghana</p>
+            </div>
+
+            <div class="registration-container">
+                <div class="registration-info">
+                    <h3>Why Choose Excellence Academy?</h3>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> Experienced and qualified teachers</li>
+                        <li><i class="fas fa-check"></i> Modern facilities and technology</li>
+                        <li><i class="fas fa-check"></i> Small class sizes for personalized attention</li>
+                        <li><i class="fas fa-check"></i> Strong focus on character development</li>
+                        <li><i class="fas fa-check"></i> Extracurricular activities and sports</li>
+                        <li><i class="fas fa-check"></i> Preparation for national examinations</li>
+                        <li><i class="fas fa-check"></i> Affordable fees with payment plans</li>
+                    </ul>
+
+                    <div class="contact-info">
+                        <h4>Need Assistance?</h4>
+                        <p>Our admissions team is here to help you through the registration process.</p>
+                        <div class="contact-methods">
+                            <a href="https://wa.me/233123456789?text=Hello!%20I%20need%20help%20with%20student%20registration."
+                               class="contact-method whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp Support</span>
+                            </a>
+                            <a href="tel:+233123456789" class="contact-method phone">
+                                <i class="fas fa-phone"></i>
+                                <span>+233 123 456 789</span>
+                            </a>
+                            <a href="mailto:admissions@excellenceacademy.edu.gh" class="contact-method email">
+                                <i class="fas fa-envelope"></i>
+                                <span>admissions@excellenceacademy.edu.gh</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="registration-form-container">
+                    <form class="registration-form" id="registrationForm">
+                        <h3>Student Registration Form</h3>
+
+                        <div class="form-section">
+                            <h4>Student Information</h4>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="dateOfBirth">Date of Birth *</label>
+                                    <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="gender">Gender *</label>
+                                    <select id="gender" name="gender" required>
+                                        <option value="">Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="program">Program/Level *</label>
+                                <select id="program" name="program" required>
+                                    <option value="">Select Program</option>
+                                    <option value="primary">Primary Education</option>
+                                    <option value="jhs">Junior High School</option>
+                                    <option value="shs">Senior High School</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h4>Parent/Guardian Information</h4>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="parentName">Parent/Guardian Name *</label>
+                                    <input type="text" id="parentName" name="parentName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="relationship">Relationship *</label>
+                                    <select id="relationship" name="relationship" required>
+                                        <option value="">Select Relationship</option>
+                                        <option value="father">Father</option>
+                                        <option value="mother">Mother</option>
+                                        <option value="guardian">Guardian</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="parentPhone">Phone Number *</label>
+                                    <input type="tel" id="parentPhone" name="parentPhone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="parentEmail">Email Address</label>
+                                    <input type="email" id="parentEmail" name="parentEmail">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="address">Home Address *</label>
+                                <textarea id="address" name="address" rows="3" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h4>Previous School Information</h4>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="previousSchool">Previous School Name</label>
+                                    <input type="text" id="previousSchool" name="previousSchool">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastClass">Last Class Completed</label>
+                                    <input type="text" id="lastClass" name="lastClass">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <h4>Additional Information</h4>
+                            <div class="form-group">
+                                <label for="specialNeeds">Special Needs or Medical Conditions</label>
+                                <textarea id="specialNeeds" name="specialNeeds" rows="3"
+                                         placeholder="Please describe any special needs, allergies, or medical conditions we should be aware of"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="comments">Additional Comments</label>
+                                <textarea id="comments" name="comments" rows="3"
+                                         placeholder="Any additional information you'd like to share"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="terms" name="terms" required>
+                                    <span class="checkmark"></span>
+                                    I agree to the <a href="#" target="_blank">Terms and Conditions</a> and
+                                    <a href="#" target="_blank">Privacy Policy</a> *
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    I would like to receive updates and newsletters from Excellence Academy
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">Submit Application</button>
+                            <button type="reset" class="btn btn-secondary">Reset Form</button>
+                        </div>
+
+                        <div class="form-note">
+                            <p><strong>Note:</strong> After submitting this form, our admissions team will contact you within 2-3 business days to schedule an interview and provide further instructions.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get in touch with Excellence Academy Ghana</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Address</h4>
+                            <p>123 Education Street<br>
+                               East Legon, Accra<br>
+                               Ghana</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+233 123 456 789<br>
+                               +233 987 654 321</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@excellenceacademy.edu.gh<br>
+                               admissions@excellenceacademy.edu.gh</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Office Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 5:00 PM<br>
+                               Saturday: 9:00 AM - 2:00 PM<br>
+                               Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a Message</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Your Name *</label>
+                                <input type="text" id="contactName" name="contactName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" name="contactEmail" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="contactPhone">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject *</label>
+                                <select id="contactSubject" name="contactSubject" required>
+                                    <option value="">Select Subject</option>
+                                    <option value="admissions">Admissions Inquiry</option>
+                                    <option value="programs">Academic Programs</option>
+                                    <option value="fees">Fees and Payment</option>
+                                    <option value="facilities">Facilities</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">Message *</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="5" required
+                                     placeholder="Please describe your inquiry or message"></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-section">
+                <h3>Find Us</h3>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.8267739935!2d-0.1276!3d5.6037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzYnMTMuMyJOIDDCsDA3JzM5LjQiVw!5e0!3m2!1sen!2sgh!4v1234567890"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="footer-logo-img">
+                            <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background circle -->
+                                <circle cx="20" cy="20" r="20" fill="#CE1126"/>
+                                <!-- Book pages -->
+                                <rect x="12" y="10" width="16" height="12" rx="1" fill="#FCD116"/>
+                                <rect x="10" y="12" width="16" height="12" rx="1" fill="#FFFFFF"/>
+                                <!-- Graduation cap -->
+                                <polygon points="20,8 14,12 26,12" fill="#006B3F"/>
+                                <rect x="19" y="8" width="2" height="4" fill="#006B3F"/>
+                                <!-- Excellence star -->
+                                <polygon points="20,26 18,30 22,30" fill="#FCD116"/>
+                                <!-- Text lines on book -->
+                                <line x1="12" y1="16" x2="24" y2="16" stroke="#CE1126" stroke-width="0.5"/>
+                                <line x1="12" y1="18" x2="22" y2="18" stroke="#CE1126" stroke-width="0.5"/>
+                                <line x1="12" y1="20" x2="24" y2="20" stroke="#CE1126" stroke-width="0.5"/>
+                            </svg>
+                        </div>
+                        <span class="footer-logo-text">Excellence Academy</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering minds, building futures, and nurturing tomorrow's leaders through quality education and cultural values.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://wa.me/233123456789" class="social-link whatsapp" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Academic Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="#programs">Primary Education</a></li>
+                        <li><a href="#programs">Junior High School</a></li>
+                        <li><a href="#programs">Senior High School</a></li>
+                        <li><a href="#programs">Extracurricular Activities</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, East Legon, Accra</p>
+                        <p><i class="fas fa-phone"></i> +233 123 456 789</p>
+                        <p><i class="fas fa-envelope"></i> info@excellenceacademy.edu.gh</p>
+                        <p><i class="fab fa-whatsapp"></i> WhatsApp: +233 123 456 789</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Excellence Academy Ghana. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>
